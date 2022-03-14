@@ -4,6 +4,10 @@ spring:
       uri: http://config-server-00001-private
   application:
     name: visits-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-server-00001-private/eureka
 # ---
 # spring:
 #   config:
